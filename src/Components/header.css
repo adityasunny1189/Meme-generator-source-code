@@ -1,0 +1,22 @@
+.header {
+    text-align: center;
+    margin-bottom: 50px;
+    padding-top: 20px;
+}
+
+.logo {
+    height: 70px;
+    width: 70px;
+    margin-right: 10px;
+}
+
+@media screen and (max-width: 48rem) {
+    .main-image {
+        width: 200px;
+    }
+    .logo {
+        height: 40px;
+        width: 40px;
+        margin-right: 10px;
+    }
+}
